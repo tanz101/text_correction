@@ -3,6 +3,8 @@ import streamlit as st
 from rapidfuzz import fuzz
 import networkx as nx
 
+PREFIXES = ("HB ", "HC ")
+
 # ── Grouping logic ───────────────────────────────────────────────────────────
 
 def _fuzzy_components(services, threshold):
@@ -16,50 +18,60 @@ def _fuzzy_components(services, threshold):
     return list(nx.connected_components(G))
 
 
+@st.cache_data
 def build_groups(df, threshold=80):
     groups = {}
 
     code_col = df["Service Code"].astype(str).str.strip()
     provider_col = df["Provider"].astype(str).str.strip()
 
-    # Pass 1: group by Service Code
-    for idx, row in df.iterrows():
-        code = code_col[idx]
-        if code and code != "nan":
-            groups.setdefault(f"CODE:{code}", {}) \
-                  .setdefault(row["Service"], []).append(idx)
+    # Pass 1: group by Service Code (groupby is much faster than iterrows)
+    coded_mask = ~code_col.isin(["", "nan"])
+    for code, grp in df[coded_mask].groupby(code_col[coded_mask]):
+        for service, sub in grp.groupby("Service"):
+            groups.setdefault(f"CODE:{code}", {}).setdefault(service, []).extend(sub.index.tolist())
 
     # Pass 2: for rows without a Service Code, fuzzy-match within each Provider
-    uncoded = df[code_col.isin(["", "nan"])].copy()
+    uncoded = df[~coded_mask]
+    uncoded_provider = provider_col[uncoded.index]
 
-    for provider in provider_col[uncoded.index].unique():
+    for provider, prov_grp in uncoded.groupby(uncoded_provider):
         if not provider or provider == "nan":
             continue
-        subset = uncoded[provider_col[uncoded.index] == provider]
-        unique_services = subset["Service"].unique().tolist()
+        service_index = {svc: list(sub.index) for svc, sub in prov_grp.groupby("Service")}
+        unique_services = list(service_index.keys())
         for component in _fuzzy_components(unique_services, threshold):
             if len(component) < 2:
                 continue
             members = [unique_services[i] for i in component]
             key = f"PROVIDER:{provider}:{members[0]}"
             for variant in members:
-                row_indices = subset[subset["Service"] == variant].index.tolist()
-                groups.setdefault(key, {}).setdefault(variant, []).extend(row_indices)
+                groups.setdefault(key, {}).setdefault(variant, []).extend(service_index[variant])
 
     # Pass 3: fuzzy-match rows with neither Service Code nor Provider
-    no_provider = uncoded[provider_col[uncoded.index].isin(["", "nan"])]
-    unique_services = no_provider["Service"].unique().tolist()
+    no_provider = uncoded[uncoded_provider.isin(["", "nan"])]
+    service_index = {svc: list(sub.index) for svc, sub in no_provider.groupby("Service")}
+    unique_services = list(service_index.keys())
     for component in _fuzzy_components(unique_services, threshold):
         if len(component) < 2:
             continue
         members = [unique_services[i] for i in component]
         key = f"TEXT:{members[0]}"
         for variant in members:
-            row_indices = no_provider[no_provider["Service"] == variant].index.tolist()
-            groups.setdefault(key, {}).setdefault(variant, []).extend(row_indices)
+            groups.setdefault(key, {}).setdefault(variant, []).extend(service_index[variant])
 
     # Only return groups with more than one distinct variant
     return {k: v for k, v in groups.items() if len(v) > 1}
+
+
+@st.cache_data
+def load_data(uploaded_file):
+    return pd.read_csv(uploaded_file)
+
+
+@st.cache_data
+def find_prefix_rows(df):
+    return df[df["Service"].astype(str).str.startswith(PREFIXES)].index.tolist()
 
 
 # ── Streamlit UI ─────────────────────────────────────────────────────────────
@@ -72,7 +84,7 @@ if not uploaded:
     st.info("Upload Book1.csv to begin.")
     st.stop()
 
-df = pd.read_csv(uploaded)
+df = load_data(uploaded)
 
 # Identify the ID column (first column named "#")
 id_col = df.columns[0]
@@ -150,9 +162,7 @@ for key, variants in groups.items():
 
 # ── Prefix Removal ───────────────────────────────────────────────────────────
 
-PREFIXES = ("HB ", "HC ")
-
-prefix_indices = df[df["Service"].astype(str).str.startswith(PREFIXES)].index.tolist()
+prefix_indices = find_prefix_rows(df)
 
 prefix_corrections = {}  # idx -> stripped name
 
