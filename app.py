@@ -73,6 +73,10 @@ for key, variants in groups.items():
 
     with st.expander(f"Group — {label}", expanded=True):
 
+        skip = st.checkbox("Skip this group (no corrections applied)", key=f"skip_{key}")
+        if skip:
+            continue
+
         # ── Canonical name selector ──────────────────────────────────────────
         suggested = max(variants, key=lambda v: len(variants[v]))
         options = list(variants.keys()) + ["✏️ Enter custom..."]
@@ -85,38 +89,31 @@ for key, variants in groups.items():
         if choice == "✏️ Enter custom...":
             choice = st.text_input("Custom name:", key=f"txt_{key}")
 
-        st.markdown("**Select rows to include in this correction** (uncheck to exclude):")
+        st.markdown("**Select variants to correct** (uncheck to exclude):")
 
-        # ── Per-row checkboxes ───────────────────────────────────────────────
+        # ── Per-variant checkboxes ───────────────────────────────────────────
         included_indices = {variant: [] for variant in variants}
 
+        header = st.columns([1, 5, 2])
+        header[0].markdown("**Include**")
+        header[1].markdown("**Variant**")
+        header[2].markdown("**Rows**")
+
         for variant, row_indices in variants.items():
-            st.markdown(f"*Variant:* `{variant}`")
-            cols = st.columns([1, 2, 2, 2, 2])
-            cols[0].markdown(f"**Include**")
-            cols[1].markdown(f"**ID**")
-            cols[2].markdown(f"**Current Service**")
-            cols[3].markdown(f"**Service Code**")
-            cols[4].markdown(f"**Charge**")
+            # Variant matching the chosen canonical is already correct — default unchecked
+            default = variant != choice
+            row_cols = st.columns([1, 5, 2])
+            include = row_cols[0].checkbox(
+                "",
+                value=default,
+                key=f"chk_{key}_{variant}",
+                label_visibility="collapsed",
+            )
+            row_cols[1].write(variant)
+            row_cols[2].write(len(row_indices))
 
-            for idx in row_indices:
-                row = df.loc[idx]
-                # Rows matching the chosen canonical are already correct — default unchecked
-                default = variant != choice
-                row_cols = st.columns([1, 2, 2, 2, 2])
-                include = row_cols[0].checkbox(
-                    "",
-                    value=default,
-                    key=f"chk_{key}_{idx}",
-                    label_visibility="collapsed",
-                )
-                row_cols[1].write(row[id_col])
-                row_cols[2].write(row["Service"])
-                row_cols[3].write(row.get("Service Code", ""))
-                row_cols[4].write(row.get("Charge", ""))
-
-                if include:
-                    included_indices[variant].append(idx)
+            if include:
+                included_indices[variant] = list(row_indices)
 
         if choice:
             corrections[key] = (choice, included_indices)
