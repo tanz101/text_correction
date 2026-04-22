@@ -2,6 +2,8 @@ import pandas as pd
 import streamlit as st
 from rapidfuzz import fuzz
 import networkx as nx
+import pdfplumber
+from datetime import datetime
 
 PREFIXES = ("HB ", "HC ")
 
@@ -72,6 +74,78 @@ def load_data(uploaded_file):
 @st.cache_data
 def find_prefix_rows(df):
     return df[df["Service"].astype(str).str.startswith(PREFIXES)].index.tolist()
+
+
+@st.cache_data
+def extract_pdf_charges(pdf_file):
+    """Extract charges from PDF table using OCR"""
+    try:
+        with pdfplumber.open(pdf_file) as pdf:
+            tables = pdf.pages[0].extract_tables()
+            if tables:
+                # Assumes first row is header
+                df = pd.DataFrame(tables[0][1:], columns=tables[0][0])
+                # Clean and normalize columns
+                df.columns = df.columns.str.strip().str.lower()
+                return df
+    except Exception as e:
+        st.error(f"Error extracting PDF: {e}")
+    return None
+
+
+def normalize_for_matching(df, amount_col, desc_col, date_col):
+    """Normalize data for comparison"""
+    df = df.copy()
+    # Convert amounts to float
+    df[amount_col] = pd.to_numeric(df[amount_col], errors='coerce')
+    # Normalize descriptions (lowercase, strip whitespace)
+    df[desc_col] = df[desc_col].astype(str).str.strip().str.lower()
+    # Parse dates
+    df[date_col] = pd.to_datetime(df[date_col], errors='coerce')
+    return df
+
+
+def compare_charges(pdf_charges, excel_charges, amount_col, desc_col, date_col):
+    """Match PDF charges against Excel charges"""
+    matches = []
+    unmatched_pdf = []
+    
+    for pdf_idx, pdf_row in pdf_charges.iterrows():
+        best_match = None
+        best_score = 0
+        
+        for excel_idx, excel_row in excel_charges.iterrows():
+            # Multi-criteria scoring
+            amount_match = 1.0 if abs(pdf_row[amount_col] - excel_row[amount_col]) < 0.01 else 0.0
+            desc_score = fuzz.ratio(pdf_row[desc_col], excel_row[desc_col]) / 100
+            date_match = 1.0 if pdf_row[date_col].date() == excel_row[date_col].date() else 0.0
+            
+            # Weighted score: 50% amount, 30% description, 20% date
+            combined_score = (amount_match * 0.5) + (desc_score * 0.3) + (date_match * 0.2)
+            
+            if combined_score > best_score:
+                best_score = combined_score
+                best_match = (excel_idx, excel_row.to_dict(), combined_score)
+        
+        if best_score > 0.7:  # 70% threshold
+            matches.append({
+                'pdf_idx': pdf_idx,
+                'excel_idx': best_match[0] if best_match else None,
+                'pdf_charge': pdf_row[amount_col],
+                'excel_charge': best_match[1][amount_col] if best_match else None,
+                'match_score': best_score,
+                'status': '✅ MATCH' if best_score > 0.95 else '⚠️ REVIEW'
+            })
+        else:
+            unmatched_pdf.append({
+                'pdf_idx': pdf_idx,
+                'amount': pdf_row[amount_col],
+                'description': pdf_row[desc_col],
+                'date': pdf_row[date_col],
+                'status': '❌ NOT FOUND'
+            })
+    
+    return pd.DataFrame(matches), pd.DataFrame(unmatched_pdf)
 
 
 # ── Streamlit UI ─────────────────────────────────────────────────────────────
@@ -223,3 +297,94 @@ if st.button("Apply Corrections & Download", type="primary"):
         file_name="Book1_corrected.csv",
         mime="text/csv",
     )
+
+
+# ── PDF vs Excel Charge Comparison ───────────────────────────────────────────
+
+st.divider()
+st.header("📊 PDF vs Excel Charge Comparison")
+
+tab1, tab2 = st.tabs(["Charge Comparison", "Settings"])
+
+with tab1:
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        pdf_file = st.file_uploader("Upload PDF (charges)", type="pdf", key="pdf_charges")
+    
+    with col2:
+        excel_file = st.file_uploader("Upload Excel (charges)", type=["xlsx", "xls"], key="excel_charges")
+    
+    if pdf_file and excel_file:
+        # Extract from PDF
+        pdf_df = extract_pdf_charges(pdf_file)
+        
+        if pdf_df is not None:
+            st.write("**PDF Columns detected:**", list(pdf_df.columns))
+            
+            # Column mappers
+            col_left, col_mid, col_right = st.columns(3)
+            with col_left:
+                pdf_amount = st.selectbox("PDF Amount column", pdf_df.columns, key="pdf_amt")
+            with col_mid:
+                pdf_desc = st.selectbox("PDF Description column", pdf_df.columns, key="pdf_desc")
+            with col_right:
+                pdf_date = st.selectbox("PDF Date column", pdf_df.columns, key="pdf_date")
+            
+            # Load Excel
+            excel_df = pd.read_excel(excel_file)
+            st.write("**Excel Columns detected:**", list(excel_df.columns))
+            
+            col_left, col_mid, col_right = st.columns(3)
+            with col_left:
+                excel_amount = st.selectbox("Excel Amount column", excel_df.columns, key="excel_amt")
+            with col_mid:
+                excel_desc = st.selectbox("Excel Description column", excel_df.columns, key="excel_desc")
+            with col_right:
+                excel_date = st.selectbox("Excel Date column", excel_df.columns, key="excel_date")
+            
+            # Run comparison
+            if st.button("Compare Charges", type="primary"):
+                pdf_norm = normalize_for_matching(pdf_df, pdf_amount, pdf_desc, pdf_date)
+                excel_norm = normalize_for_matching(excel_df, excel_amount, excel_desc, excel_date)
+                
+                matches_df, unmatched_df = compare_charges(
+                    pdf_norm, excel_norm, pdf_amount, pdf_desc, pdf_date
+                )
+                
+                # Display results
+                st.subheader("Matched Charges")
+                matched_count = len(matches_df[matches_df['status'] == '✅ MATCH'])
+                review_count = len(matches_df[matches_df['status'] == '⚠️ REVIEW'])
+                
+                col1, col2 = st.columns(2)
+                col1.metric("Exact Matches", matched_count)
+                col2.metric("Needs Review", review_count)
+                
+                st.dataframe(matches_df, use_container_width=True)
+                
+                if len(unmatched_df) > 0:
+                    st.subheader("Unmatched PDF Charges")
+                    st.dataframe(unmatched_df, use_container_width=True)
+                    
+                    # Download unmatched for manual review
+                    csv_unmatched = unmatched_df.to_csv(index=False).encode()
+                    st.download_button(
+                        "Download unmatched charges",
+                        data=csv_unmatched,
+                        file_name="unmatched_charges.csv",
+                        mime="text/csv"
+                    )
+
+with tab2:
+    st.write("**Comparison Settings:**")
+    st.info("""
+    - **Exact Match**: 95%+ score (amount exact, description ≈90% similar, date matches)
+    - **Review**: 70-95% score (partial matches that need verification)
+    - **Unmatched**: <70% score (likely missing or incorrectly recorded)
+    
+    Scoring weights:
+    - 50% Charge Amount
+    - 30% Description (fuzzy matching)
+    - 20% Date
+    """)
