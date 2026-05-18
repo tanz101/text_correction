@@ -1,0 +1,38 @@
+Sub DeleteNA_Cells()
+    ' reference formula: =IF(ISBLANK(AL183),"X",IF(ISBLANK(AL184),V183&" "&V184,V183))
+    Dim ws As Worksheet
+    Dim selection As Range
+    Dim cell As Range
+    Dim cellsToDelete As Range
+    
+    Set ws = ActiveSheet
+    
+    ' Check if a range is selected
+    On Error Resume Next
+    Set selection = Selection
+    On Error GoTo 0
+    
+    If selection Is Nothing Then
+        MsgBox "Please select a range first.", vbExclamation
+        Exit Sub
+    End If
+    
+    ' Collect all cells with text "X" in selection
+    For Each cell In selection
+        If CStr(cell.Value) = "X" Then
+            If cellsToDelete Is Nothing Then
+                Set cellsToDelete = cell
+            Else
+                Set cellsToDelete = Union(cellsToDelete, cell)
+            End If
+        End If
+    Next cell
+    
+    ' Delete collected cells and shift up
+    If Not cellsToDelete Is Nothing Then
+        cellsToDelete.Delete Shift:=xlShiftUp
+        MsgBox "Complete! All X cells deleted.", vbInformation
+    Else
+        MsgBox "No X cells found in selection.", vbInformation
+    End If
+End Sub
