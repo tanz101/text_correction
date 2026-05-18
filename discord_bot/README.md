@@ -1,13 +1,17 @@
 # Discord Points Tracker Bot
 
-A simple Discord bot that tracks a shared points total in a channel. Users can add or subtract points with simple commands, and view the current total.
+A Discord bot that tracks points per channel. Users can add or subtract points with simple commands, and export transaction history to CSV.
 
 ## Features
 
 - ➕ Add points with `+NUMBER` (e.g., `+50`)
 - ➖ Subtract points with `-NUMBER` (e.g., `-100`)
-- 📊 View current total with `!score`
-- 💾 Points persist across bot restarts (saved to JSON file)
+- 📊 View current total with `!score` (per channel)
+- 📁 Export all transactions to CSV with `!export`
+- 👤 Track which user added/subtracted points
+- 📅 Record timestamp and month/year for each transaction
+- 🔄 Separate points total for each channel
+- 💾 All data persists across bot restarts
 
 ## Setup
 
@@ -67,18 +71,61 @@ Send a message with `-NUMBER` to subtract points. You can optionally include a d
   - Bot response: ➖ Subtracted 5 points broke a rule! Total: **35**
 
 ### Viewing Score
-Use the `!score` command:
+Use the `!score` command to see the current total for the current channel:
 - Message: `!score`
-- Bot response: 📊 Current points: **35**
+- Bot response: 📊 Current points in **#channel-name**: **35**
+
+**Note:** Each channel has its own separate points total. Running `!score` in different channels will show different totals.
+
+### Viewing Channel Total
+Use the `!total` command to see the overall points for the current channel:
+- Message: `!total`
+- Bot response: 💰 **#channel-name** channel total: **100** points
+
+### Viewing Leaderboard
+Use the `!leaderboard` command to see per-user points for the current month in this channel:
+- Message: `!leaderboard`
+- Bot response: Shows a ranked table of users and their points (current month only)
+- Sorted: Highest to lowest
+- Only includes: Transactions from the current month in the current channel
+
+Example leaderboard:
+```
+Rank  User                 Points
+1     alice                50
+2     bob                  30
+3     charlie              20
+```
+Use the `!export` command to download all transactions as a CSV file:
+- Message: `!export`
+- Bot response: Bot generates and uploads a CSV file with all transactions
+- CSV columns: Channel, User, Amount, Month/Year
+
+The exported CSV includes:
+- Channel name (readable channel names, not IDs)
+- Who made each change (username)
+- The amount (positive or negative)
+- Month and year when it was added
+
+### Getting Help
+Use the `!howtopoints` command to see all available commands and how to use them:
+- Message: `!howtopoints`
+- Bot response: Displays a quick reference guide with all commands and usage tips
 
 ## How It Works
 
-- Points are stored in `points.json` as a single total
-- All users can add or subtract points
-- Commands support optional descriptions: `+50`, `+50 for completing task`, etc.
-- The bot responds to patterns like `+50`, `-100`, `+10 for cleaning`, etc.
-- Invalid formats are ignored (e.g., `+ 50`, `+abc`, just `50`)
-- Points persist even after restarting the bot
+- **Per-Channel Tracking**: Each channel maintains its own independent points total
+- **User Tracking**: The bot records who added/subtracted points and when
+- **Transaction History**: All point changes are logged with:
+  - Channel ID
+  - Username and User ID
+  - Amount (positive or negative)
+  - Description (if provided)
+  - ISO timestamp and month/year
+- **Data Storage**: All data is stored in `points.json` with a `channels` object and a `transactions` array
+- **Commands**: Users can add/subtract points with `+50`, `-100`, `+10 for cleaning`, etc.
+- **Invalid Formats**: Ignored (e.g., `+ 50`, `+abc`, just `50`)
+- **CSV Export**: Run `!export` to download all transactions as a spreadsheet-ready CSV file
 
 ## Troubleshooting
 
@@ -106,8 +153,9 @@ Use the `!score` command:
 ## Future Enhancements
 
 Possible additions:
-- Per-user point tracking
-- Point history/leaderboard
+- Leaderboard command (top contributors)
 - Admin-only modification controls
-- Custom point increment values
 - Role-based access restrictions
+- Point deduction history (detailed breakdown)
+- Scheduled point resets per month/year
+

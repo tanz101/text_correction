@@ -1,1 +1,36 @@
-{"total": 700}
+{
+  "channels": {
+    "0": 750,
+    "1499077808339685477": 30,
+    "1505219536398581861": 750
+  },
+  "transactions": [
+    {
+      "channel_id": "1499077808339685477",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-05-18T16:12:44.417664",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1499077808339685477",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-05-18T16:15:14.652062",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 750,
+      "description": "(points reset after making changes to the bot)",
+      "timestamp": "2026-05-18T16:21:27.219529",
+      "month_year": "May 2026"
+    }
+  ]
+}
