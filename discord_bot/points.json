@@ -1,8 +1,10 @@
 {
   "channels": {
     "0": 750,
-    "1499077808339685477": 30,
-    "1505219536398581861": 750
+    "1499077808339685477": 60,
+    "1505219536398581861": 1150,
+    "1238267373258145854": 617,
+    "1486372912175911012": 1577
   },
   "transactions": [
     {
@@ -30,6 +32,3039 @@
       "amount": 750,
       "description": "(points reset after making changes to the bot)",
       "timestamp": "2026-05-18T16:21:27.219529",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": -1,
+      "description": "",
+      "timestamp": "2024-05-25T23:01:57.010000+00:00",
+      "month_year": "May 2024"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1184663414203760712",
+      "username": "non_gamer_123.",
+      "amount": 0,
+      "description": "",
+      "timestamp": "2024-05-25T23:58:14.081000+00:00",
+      "month_year": "May 2024"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-04-17T22:13:08.736000+00:00",
+      "month_year": "April 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "Syl had one too",
+      "timestamp": "2025-05-01T03:17:37.185000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "for today",
+      "timestamp": "2025-05-01T23:44:56.265000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "for today",
+      "timestamp": "2025-05-02T20:05:22.664000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 3,
+      "description": "today.",
+      "timestamp": "2025-05-03T01:24:24.007000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "on wednesday",
+      "timestamp": "2025-05-03T01:33:32.310000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "breakfast of champions",
+      "timestamp": "2025-05-03T15:54:13.902000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-05-03T17:37:37.276000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "Syl had a hotdog today",
+      "timestamp": "2025-05-05T22:52:39.342000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "for the good guys",
+      "timestamp": "2025-05-09T22:22:12.908000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-05-30T12:36:10.438000+00:00",
+      "month_year": "May 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-06-07T23:37:12.227000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "485705890322841601",
+      "username": "jp8018",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-06-08T04:58:54.451000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-06-08T18:31:33.516000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-06-09T01:06:38.786000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "(ivy)",
+      "timestamp": "2025-06-09T01:07:18.011000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-06-09T21:22:06.159000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-06-10T01:33:24.417000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-06-10T17:23:25.744000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "yesterday",
+      "timestamp": "2025-06-10T22:22:01.496000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-06-24T14:41:57.681000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-06-25T01:21:22.879000+00:00",
+      "month_year": "June 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-07-02T17:59:48.234000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "Jumbo Dogs",
+      "timestamp": "2025-07-04T19:45:53.859000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 12,
+      "description": "Jumpo Dogs",
+      "timestamp": "2025-07-04T21:35:02.569000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-07-05T01:01:23.931000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-06T18:39:24.145000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "787468016249602079",
+      "username": "amanaconda5",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-06T21:38:26.208000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-06T22:45:33.419000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "787468016249602079",
+      "username": "amanaconda5",
+      "amount": 1,
+      "description": "more",
+      "timestamp": "2025-07-06T22:45:50.677000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-07T18:45:16.483000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 4,
+      "description": "(brats)",
+      "timestamp": "2025-07-07T18:47:49.968000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "jumbo",
+      "timestamp": "2025-07-07T23:08:44.621000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "Brats",
+      "timestamp": "2025-07-08T17:11:32.406000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "Brats: (electric boogaloo)",
+      "timestamp": "2025-07-08T22:30:53.423000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-09T00:12:19.975000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-07-09T00:12:43.252000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-10T18:36:21.668000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-07-13T19:53:39.018000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-07-15T17:51:14.871000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "yesterday",
+      "timestamp": "2025-07-15T17:52:27.569000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "two days ago.",
+      "timestamp": "2025-07-21T18:13:46.762000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "proper portillos chicago dog",
+      "timestamp": "2025-07-30T17:26:54.547000+00:00",
+      "month_year": "July 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-08-10T20:59:04.976000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-08-16T23:18:19.386000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-08-16T23:18:35.542000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-08-17T01:10:21.719000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-08-17T18:29:10.402000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-08-19T04:11:26.049000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-08-19T18:05:11.606000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-08-26T23:52:11.136000+00:00",
+      "month_year": "August 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-01T19:46:23.646000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-03T18:46:09.999000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-07T17:26:57.086000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-07T22:55:49.139000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-09-08T00:28:44.119000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-08T14:25:18.478000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-09-08T20:26:54.410000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-08T23:06:52.111000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-09T17:20:47.435000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-13T00:12:18.314000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-09-19T03:43:21.205000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 4,
+      "description": "yesterday . hebrew  nash",
+      "timestamp": "2025-09-19T03:44:09.293000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 31,
+      "description": "mini bagel dogs",
+      "timestamp": "2025-09-24T21:20:23.545000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-28T22:31:42.600000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-29T17:38:32.501000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "485705890322841601",
+      "username": "jp8018",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-09-30T00:39:46.486000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-09-30T00:40:01.940000+00:00",
+      "month_year": "September 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "485705890322841601",
+      "username": "jp8018",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-10-01T02:03:19.314000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 6,
+      "description": "the last two days.",
+      "timestamp": "2025-10-05T15:07:53.873000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320998772043808768",
+      "username": "kustanza",
+      "amount": 2,
+      "description": "early wieners today",
+      "timestamp": "2025-10-05T16:14:44.514000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "523233413780471828",
+      "username": "snarlyjones",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-10-05T21:54:08.915000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-10-05T21:54:45.861000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "yesterday",
+      "timestamp": "2025-10-06T13:48:38.136000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-10-06T17:34:05.178000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-10-10T01:16:11.586000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-10-12T19:23:37.128000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-10-21T17:46:49.595000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-10-22T00:32:54.692000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2025-10-26T23:22:20.293000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 3,
+      "description": "yesterday +1 today",
+      "timestamp": "2025-10-26T23:22:37.201000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-10-29T01:07:46.262000+00:00",
+      "month_year": "October 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-11-01T17:50:26.463000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-11-04T21:44:19.215000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-11-09T00:09:10.080000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2025-11-12T22:52:06.227000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": -1,
+      "description": "",
+      "timestamp": "2025-11-25T20:16:36.975000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "523233413780471828",
+      "username": "snarlyjones",
+      "amount": 1,
+      "description": "last night and also +1 like two weeks ago but it became -1 too quickly for me to report it (i do not recommend getting a free hotdog from the regal webster cinema)",
+      "timestamp": "2025-11-27T19:07:29.995000+00:00",
+      "month_year": "November 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 2,
+      "description": "Thursday, +1 today",
+      "timestamp": "2025-12-07T04:49:56.221000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-12-08T19:44:14.302000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-12-10T01:06:35.234000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-12-11T19:36:20.233000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-12-13T18:08:17.777000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2025-12-15T18:09:03.459000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-12-16T18:29:14.244000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-12-17T23:58:22.150000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2025-12-22T00:28:28.007000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2025-12-30T19:30:56.873000+00:00",
+      "month_year": "December 2025"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-01-04T21:24:28.236000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "dogs",
+      "timestamp": "2026-01-05T12:49:06.910000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-05T17:07:37.495000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "(Yesterday)",
+      "timestamp": "2026-01-05T18:36:34.286000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-05T22:54:43.335000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-06T19:37:21.318000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-06T22:39:13.191000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-10T19:14:55.609000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-01-10T19:15:04.881000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-11T05:02:30.573000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-01-11T05:02:56.567000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-11T18:14:19.061000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-11T18:14:46.769000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "brats and Mac",
+      "timestamp": "2026-01-11T23:57:11.030000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "yesterday",
+      "timestamp": "2026-01-12T18:07:42.888000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "today",
+      "timestamp": "2026-01-12T18:07:48.197000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690037088250232904",
+      "username": "haekim",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-12T19:10:45.954000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-13T17:37:18.453000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-14T01:34:26.895000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-15T19:31:30.720000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-01-18T21:32:28.737000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-20T17:16:11.367000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-21T01:29:05.942000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 6,
+      "description": "",
+      "timestamp": "2026-01-21T23:46:31.608000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "(7-11 gas station dogs are pretty good actually)",
+      "timestamp": "2026-01-24T23:03:38.253000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-25T17:59:27.006000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-25T20:51:00.224000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-26T22:07:20.263000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-26T23:03:04.125000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-01-27T00:38:45.547000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-27T03:45:04.294000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-01-27T16:02:36.046000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-01-27T18:25:32.936000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "yes Portillo\u2019s",
+      "timestamp": "2026-01-27T23:27:14.978000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-01-28T04:27:53.800000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-01-29T23:56:12.868000+00:00",
+      "month_year": "January 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-01T18:48:43.774000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-01T19:16:44.497000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-01T23:35:12.007000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-02T01:06:25.567000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-03T03:07:00.234000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-03T18:26:25.334000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-02-03T22:38:17.156000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-04T04:01:56.551000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "cheddar brats with barbecue glaze",
+      "timestamp": "2026-02-04T23:25:14.847000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-02-05T22:44:18.569000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-06T21:06:31.423000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "wake up and eat do dogs for breakfast boys",
+      "timestamp": "2026-02-07T13:20:29.662000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-08T02:09:47.881000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-08T19:31:18.574000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-09T22:14:51.098000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-10T18:25:11.515000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 6,
+      "description": "between yesterday/today",
+      "timestamp": "2026-02-10T21:47:43.193000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-11T19:48:14.351000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 1,
+      "description": "yesterday. Funky franks kimberly",
+      "timestamp": "2026-02-11T23:40:44.513000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-12T19:33:59.711000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-14T19:24:21.193000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-14T22:00:14.557000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-15T03:13:18.389000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-02-15T14:53:08.673000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-15T16:45:32.105000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1184663414203760712",
+      "username": "non_gamer_123.",
+      "amount": -1,
+      "description": "",
+      "timestamp": "2026-02-15T22:28:46.605000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "Chili dogs",
+      "timestamp": "2026-02-17T19:00:05.172000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-02-18T23:08:41.458000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-20T17:48:44.417000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-02-22T19:51:13.036000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-23T01:38:58.730000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 6,
+      "description": "",
+      "timestamp": "2026-02-23T23:34:55.088000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-24T18:19:46.271000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-25T19:38:18.838000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-26T19:50:20.750000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-02-28T12:33:06.480000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-02-28T21:06:23.546000+00:00",
+      "month_year": "February 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-01T04:02:13.583000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-01T22:05:59.983000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 7,
+      "description": "",
+      "timestamp": "2026-03-02T06:43:52.831000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-03-02T22:38:54.392000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-03T16:38:34.617000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-04T16:14:34.054000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-03-04T22:35:07.191000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-05T16:43:53.038000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-06T19:32:24.188000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-08T19:08:13.525000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "infinity hotdog",
+      "timestamp": "2026-03-09T20:49:52.667000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-11T22:38:06.075000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "from yesterday",
+      "timestamp": "2026-03-14T12:58:25.330000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-14T18:05:51.442000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-14T19:55:10.499000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "but I must mention that it was a really big weiner",
+      "timestamp": "2026-03-15T22:43:28.665000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-15T22:43:29.787000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-15T22:43:30.055000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-15T22:43:38.535000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-16T22:08:57.931000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-03-17T17:13:08.680000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-18T23:58:45.650000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-19T00:04:16.816000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-19T21:36:16.932000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-19T23:33:45.030000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-22T18:22:56.511000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-23T02:03:02.712000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-23T02:38:17.505000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-23T14:34:21.195000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-03-23T21:44:49.530000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-25T18:12:49.069000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-25T21:50:02.850000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-28T02:35:20.181000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "from yesterday",
+      "timestamp": "2026-03-29T14:00:52.708000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-29T23:00:42.860000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-03-30T00:53:27.992000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-03-30T22:15:39.040000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-03-31T16:42:54.759000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-01T18:40:18.729000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-02T14:53:30.038000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-03T17:06:06.717000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 4,
+      "description": "hamhotdogs.",
+      "timestamp": "2026-04-03T20:38:39.308000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-04-04T15:46:14.322000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-04T18:25:11.750000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-06T01:07:53.447000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-06T01:09:54.918000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-04-07T18:48:01.422000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-04-10T21:35:53.663000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 2,
+      "description": "Wrigley dogs",
+      "timestamp": "2026-04-11T17:54:03.562000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-12T01:41:16.706000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-12T21:55:47.495000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-14T02:09:08.424000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-17T16:00:15.626000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-18T16:14:58.211000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-04-18T20:08:03.435000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-20T01:04:31.715000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-04-20T17:43:04.258000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-04-20T18:34:00.996000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-24T18:14:51.510000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-27T14:23:51.236000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-28T23:10:20.612000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-04-29T15:28:25.389000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "yesterday",
+      "timestamp": "2026-05-01T17:08:45.144000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 3,
+      "description": "today",
+      "timestamp": "2026-05-01T17:08:52.665000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-07T17:54:50.846000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-07T20:39:33.180000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-05-09T22:35:53.477000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "502990629249351681",
+      "username": "afalco89",
+      "amount": 7,
+      "description": "since last logged and about to do +2",
+      "timestamp": "2026-05-10T01:14:59.447000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1259683107733241877",
+      "username": "sauce_pasta",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-10T23:39:55.970000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-05-11T16:53:18.936000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-12T16:10:54.563000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-12T20:50:10.741000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-17T01:02:42.663000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-05-18T20:23:16.152000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 34,
+      "description": "",
+      "timestamp": "2026-03-25T15:24:06.807000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-03-25T15:25:10.023000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-03-25T16:14:46.798000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 0,
+      "description": "just being honest",
+      "timestamp": "2026-03-25T16:27:40.705000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "- I'M DOING THIS FOR PAUL",
+      "timestamp": "2026-03-25T17:27:00.410000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-03-25T18:12:37.902000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 11,
+      "description": "",
+      "timestamp": "2026-03-25T23:03:15.867000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 18,
+      "description": "",
+      "timestamp": "2026-03-25T23:08:04.122000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 17,
+      "description": "",
+      "timestamp": "2026-03-26T17:28:33.009000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-03-26T17:51:42.280000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-03-26T19:14:54.223000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 18,
+      "description": "",
+      "timestamp": "2026-03-26T19:30:23.204000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-03-27T17:19:09.476000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 34,
+      "description": "",
+      "timestamp": "2026-03-27T23:45:31.031000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 7,
+      "description": "",
+      "timestamp": "2026-03-28T17:15:24.266000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-03-28T17:27:21.632000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "179772329520267264",
+      "username": "dudleyfather",
+      "amount": 40,
+      "description": "",
+      "timestamp": "2026-03-29T22:54:57.800000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-03-29T22:57:05.043000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-03-30T02:38:18.825000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-03-30T17:26:59.244000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-03-30T22:36:17.676000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 36,
+      "description": "",
+      "timestamp": "2026-03-31T22:56:43.993000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-03-31T23:13:54.866000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-03-31T23:14:15.925000+00:00",
+      "month_year": "March 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-02T15:56:30.337000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 36,
+      "description": "",
+      "timestamp": "2026-04-02T23:19:00.852000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-03T00:06:40.060000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-03T21:09:48.318000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-03T22:54:26.891000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-04T00:18:17.637000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-04-04T00:27:14.679000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-04-04T15:54:57.625000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-04T16:45:23.335000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-04T18:29:41.821000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "320041830609584139",
+      "username": "appiusclaudius",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-04-05T16:14:58.787000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 21,
+      "description": "",
+      "timestamp": "2026-04-07T16:40:12.537000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-07T16:49:39.442000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-08T01:05:54.451000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-04-08T01:22:16.960000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-08T18:13:04.556000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-08T20:03:40.261000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 23,
+      "description": "",
+      "timestamp": "2026-04-08T21:51:44.721000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 34,
+      "description": "",
+      "timestamp": "2026-04-09T17:35:15.302000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 27,
+      "description": "",
+      "timestamp": "2026-04-09T20:49:06.730000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-09T21:16:51.444000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-11T21:04:25.754000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-12T17:25:07.694000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-12T19:41:26.920000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-12T21:07:55.339000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 19,
+      "description": "",
+      "timestamp": "2026-04-12T22:52:10.182000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 11,
+      "description": "",
+      "timestamp": "2026-04-13T22:37:28.732000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-04-13T22:38:04.442000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-04-16T12:37:43.788000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-16T19:02:07.558000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 12,
+      "description": "",
+      "timestamp": "2026-04-17T01:04:52.890000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-04-18T14:23:10.853000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-18T17:22:25.599000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 46,
+      "description": "",
+      "timestamp": "2026-04-18T20:37:04.526000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 21,
+      "description": "",
+      "timestamp": "2026-04-20T18:22:09.901000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-20T18:24:42.860000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-20T22:40:58.976000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-04-20T22:47:41.294000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 24,
+      "description": "",
+      "timestamp": "2026-04-22T19:55:35.238000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 28,
+      "description": "bench press @150 pounds on Tuesday",
+      "timestamp": "2026-04-22T22:49:48.459000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 28,
+      "description": "push ups because i know how to read",
+      "timestamp": "2026-04-22T23:46:36.958000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 28,
+      "description": "",
+      "timestamp": "2026-04-24T21:01:00.357000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 26,
+      "description": "",
+      "timestamp": "2026-04-24T22:05:09.307000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 15,
+      "description": "",
+      "timestamp": "2026-04-24T23:57:17.130000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 12,
+      "description": "",
+      "timestamp": "2026-04-26T16:13:55.894000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-26T16:16:48.393000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "523233413780471828",
+      "username": "snarlyjones",
+      "amount": 36,
+      "description": "",
+      "timestamp": "2026-04-30T01:00:38.014000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-04-30T03:28:47.928000+00:00",
+      "month_year": "April 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "523233413780471828",
+      "username": "snarlyjones",
+      "amount": 68,
+      "description": "",
+      "timestamp": "2026-05-01T00:00:15.172000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 15,
+      "description": "",
+      "timestamp": "2026-05-01T00:02:58.190000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-05-04T08:17:59.047000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 15,
+      "description": "",
+      "timestamp": "2026-05-05T23:09:54.824000+00:00",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-05-18T17:01:13.774663",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-05-18T17:05:39.499802",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-18T17:08:25.113045",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-05-18T19:04:07.304355",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "1475519858543169729",
+      "username": "mazikarp0810",
+      "amount": -500,
+      "description": "not telling me about plan until last min",
+      "timestamp": "2026-05-18T19:19:04.651559",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "1475519858543169729",
+      "username": "mazikarp0810",
+      "amount": 800,
+      "description": "oil change",
+      "timestamp": "2026-05-18T19:53:02.517088",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 100,
+      "description": "kitchen",
+      "timestamp": "2026-05-18T23:21:53.577508",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1499077808339685477",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-05-19T09:59:50.756662",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1499077808339685477",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-05-19T10:00:16.782934",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1499077808339685477",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-05-19T10:03:18.779317",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-05-20T11:52:47.450427",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-05-20T13:30:39.107381",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-05-20T14:16:33.659544",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-21T14:44:22.672342",
       "month_year": "May 2026"
     }
   ]
