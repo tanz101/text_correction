@@ -2,9 +2,9 @@
   "channels": {
     "0": 750,
     "1499077808339685477": 60,
-    "1505219536398581861": 1150,
-    "1238267373258145854": 620,
-    "1486372912175911012": 1577
+    "1505219536398581861": 6050,
+    "1238267373258145854": 684,
+    "1486372912175911012": 1743
   },
   "transactions": [
     {
@@ -3075,6 +3075,582 @@
       "description": "",
       "timestamp": "2026-05-21T14:47:36.070642",
       "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "1475519858543169729",
+      "username": "mazikarp0810",
+      "amount": 200,
+      "description": "for driving back",
+      "timestamp": "2026-05-21T18:34:50.538962",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-05-21T20:56:35.411972",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-05-22T00:04:31.011768",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-05-22T21:58:52.193232",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-05-23T15:04:00.573596",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-05-23T19:28:58.953993",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "kitchen",
+      "timestamp": "2026-05-24T13:00:02.756784",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-24T17:45:50.595362",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "321009272509169666",
+      "username": "dangoledug",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-25T12:10:01.025075",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-05-25T14:36:05.833823",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-25T16:01:34.379256",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1259683107733241877",
+      "username": "sauce_pasta",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-25T16:02:09.306201",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-25T16:46:18.059091",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 3,
+      "description": "Saturday",
+      "timestamp": "2026-05-25T17:22:02.119992",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 3,
+      "description": "today",
+      "timestamp": "2026-05-25T17:22:07.625479",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-05-25T19:47:08.721657",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-26T00:16:35.505718",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-26T12:30:36.912152",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1259683107733241877",
+      "username": "sauce_pasta",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-26T16:06:09.519455",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-05-27T07:47:26.982845",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-27T11:13:41.429167",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-27T11:45:27.661017",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-05-27T20:09:20.872126",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-05-27T21:55:57.382859",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-05-27T21:56:05.780076",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "kitchen",
+      "timestamp": "2026-05-27T21:56:21.845896",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-28T11:50:34.588177",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-28T15:53:02.929007",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 6,
+      "description": "",
+      "timestamp": "2026-05-28T17:42:41.194732",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-05-28T17:53:26.032899",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-05-28T21:03:16.324816",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-05-30T13:21:52.487051",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 25,
+      "description": "",
+      "timestamp": "2026-05-30T13:21:56.849606",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-05-30T19:11:05.062212",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-30T19:40:37.967228",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-05-31T14:02:56.014028",
+      "month_year": "May 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-01T21:26:35.903775",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-06-02T08:10:38.769832",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-06-03T08:52:13.973718",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "301543965469966336",
+      "username": "bobjohansen",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-06-03T11:27:38.470534",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 20,
+      "description": "",
+      "timestamp": "2026-06-03T12:15:01.368357",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-03T23:42:53.831413",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-06-06T08:59:52.442268",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-06T10:27:20.320656",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 500,
+      "description": "flour",
+      "timestamp": "2026-06-06T10:28:06.926130",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 100,
+      "description": "kitchen (yesterday), coffee",
+      "timestamp": "2026-06-07T23:59:18.890723",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-06-08T17:03:29.812319",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "155929183275581440",
+      "username": "goodmorningwoody",
+      "amount": 1,
+      "description": "",
+      "timestamp": "2026-06-08T17:25:38.500665",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-06-08T18:37:13.090903",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-08T21:51:08.162510",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 2,
+      "description": "",
+      "timestamp": "2026-06-09T12:54:07.313889",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "1306779747875029052",
+      "username": "prometheus02384",
+      "amount": 4,
+      "description": "",
+      "timestamp": "2026-06-09T16:34:51.063003",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1238267373258145854",
+      "user_id": "690418861891256361",
+      "username": "monroemonroe",
+      "amount": 3,
+      "description": "",
+      "timestamp": "2026-06-09T21:00:10.462576",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-06-10T21:23:11.178793",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 5,
+      "description": "",
+      "timestamp": "2026-06-10T21:23:47.922871",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-06-10T21:25:51.276083",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 10,
+      "description": "",
+      "timestamp": "2026-06-10T21:30:48.828123",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "bed",
+      "timestamp": "2026-06-11T07:18:36.282676",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-11T07:18:40.890842",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "coffee",
+      "timestamp": "2026-06-11T07:18:48.819388",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "kitchen",
+      "timestamp": "2026-06-11T07:19:08.385212",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1486372912175911012",
+      "user_id": "156280248554487818",
+      "username": "alexthebeetrayer",
+      "amount": 22,
+      "description": "",
+      "timestamp": "2026-06-11T16:20:54.522862",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "146145318382206976",
+      "username": "tannahbanana",
+      "amount": 50,
+      "description": "dishes",
+      "timestamp": "2026-06-11T18:23:05.468423",
+      "month_year": "June 2026"
+    },
+    {
+      "channel_id": "1505219536398581861",
+      "user_id": "1475519858543169729",
+      "username": "mazikarp0810",
+      "amount": 3000,
+      "description": "litter liner",
+      "timestamp": "2026-06-12T21:07:41.322102",
+      "month_year": "June 2026"
     }
   ]
 }
