@@ -8,7 +8,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv('C:\\Users\\tziel\\Documents\\Git\\.env')
+load_dotenv('C:\\Users\\Administrator\\Desktop\\.env')
 TOKEN = os.getenv('DISCORD_TOKEN')
 POINTS_FILE = 'discord_bot/points.json'
 
